@@ -4,14 +4,6 @@ import router from "./router";
 import store from "./store";
 
 /**
- * Import Custom Styles Below
- */
-import "@/scss/normalize.scss";
-import "@/scss/UniversalStyles.scss";
-import "@/scss/mixins.scss";
-import "@/scss/variables.scss";
-
-/**
  * Import Cookies Config Below
  */
 import VueCookies from "vue3-cookies";
