@@ -8,9 +8,6 @@
         >vue-cli documentation</a
       >.
     </p>
-    <n-space>
-      <n-button>Button</n-button>
-    </n-space>
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li>
