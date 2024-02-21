@@ -1,0 +1,50 @@
+@import "variables";
+@import "mixins";
+@import "variables";
+
+// Universal Styles
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-family: "Barlow", monospace, sans-serif;
+  font-size: 14px;
+  background-color: $ResBlack;
+  color: $ResGreen;
+  line-height: 1;
+}
+input,
+select,
+textarea,
+button {
+  background-color: $ResBlack;
+  color: $ResGreen;
+  width: auto;
+  outline: none;
+  cursor: text;
+  caret-color: $ResGreen;
+  border: none;
+}
+input[type="text"] {
+  size: auto; // grow with text
+}
+textarea {
+  width: auto; // grow with text horizontally
+  height: auto; // grow with text vertically
+}
+::selection {
+  background: $ResGreen;
+  color: $ResBlack;
+}
