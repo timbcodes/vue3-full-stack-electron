@@ -14,6 +14,9 @@ import VueCookies from "vue3-cookies";
 import naive from "naive-ui";
 import vClickOutside from "click-outside-vue3";
 import { Vue3Mq } from "vue3-mq";
+import { BootstrapIconsPlugin } from "bootstrap-icons-vue";
+import "vfonts/Lato.css";
+import "vfonts/FiraCode.css";
 
 const app = createApp(App)
   .use(store)
@@ -23,5 +26,6 @@ const app = createApp(App)
   .use(vClickOutside)
   .use(Vue3Mq, {
     preset: "devices", // default
-  });
+  })
+  .use(BootstrapIconsPlugin);
 app.mount("#app");

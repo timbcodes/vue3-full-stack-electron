@@ -16,6 +16,7 @@ async function createWindow() {
     minWidth: 800,
     minHeight: 600,
     autoHideMenuBar: true,
+    // frame: false, We'll use a custom frame later on
     // TODO: Add icon
     // icon: path.join(__dirname, "../src/assets/icons/borderland-icon.png"),
     webPreferences: {
